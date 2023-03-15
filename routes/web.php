@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\UserController;
@@ -21,3 +21,4 @@ Route::post('/store', [UserController::class, 'store']);
 Route::get('/login', [UserController::class, 'login']);
 Route::post('/login/process', [UserController::class, 'process']);
 Route::get('/logout', [UserController::class, 'logout']);
+Route::get('delete/{id}', [CustomerController::class, 'delete']);
