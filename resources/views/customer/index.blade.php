@@ -26,7 +26,7 @@
       <td>{{$customer->firstName}}</td>
       <td>{{$customer->email}}</td>
       <td>{{$customer->address}}</td>
-      <td><a href="#">Edit</a></td>
+      <td><a href="edit/{{$customer->id}}">Edit</a></td>
       <td><a href="delete/{{$customer->id}}">Delete</a></td>
     </tr>
   </tbody>

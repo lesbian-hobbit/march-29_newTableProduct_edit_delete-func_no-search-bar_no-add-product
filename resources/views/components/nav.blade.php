@@ -33,9 +33,10 @@
         <button class="btn btn-outline-success" type="submit">Search</button>
       
       </form>
-      <a class="navbar-brand" href="register">Add account</a>
+      <a class="navbar-brand" href="addCustomer">Add account</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <form action = "logout" method="get">
+        
 @CSRF
 <button type="logout" class="btn btn-primary">Logout</button>
 </form>
