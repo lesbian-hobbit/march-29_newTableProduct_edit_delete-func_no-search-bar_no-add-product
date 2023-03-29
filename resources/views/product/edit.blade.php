@@ -5,16 +5,16 @@
     <div class="mb-3">
         <div class="mb-3">
         <label for="name" class="form-label">DESCRIPTION</label>
-        <input type="text" class="form-control" name="description" value="{{$product->description}}">>
+        <input type="text" class="form-control" name="description" value="{{$product->description}}">
     </div>
     <div class="mb-3">
         <div class="mb-3">
         <label for="name" class="form-label">QUANTITY</label>
-        <input type="number" class="form-control" name="quantity" value="{{$product->quantity}}">>
+        <input type="number" class="form-control" name="quantity" value="{{$product->quantity}}">
     </div>
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">PRICE</label>
-        <input type="number" class="form-control" name="price" aria-describedby="emailHelp" value="{{$product->price}}">>
+        <input type="number" class="form-control" name="price" aria-describedby="emailHelp" value="{{$product->price}}">
     </div>
     
     <button type="submit" class="btn btn-primary">Edit</button>   

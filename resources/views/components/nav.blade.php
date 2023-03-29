@@ -34,6 +34,7 @@
       
       </form>
       <a class="navbar-brand" href="addCustomer">Add account</a>
+      <a class="navbar-brand" href="addProduct">Add Product</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <form action = "logout" method="get">
         

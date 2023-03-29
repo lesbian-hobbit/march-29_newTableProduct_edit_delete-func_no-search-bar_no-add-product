@@ -3,7 +3,7 @@
 @if (Session::has('success'))
 {{Session::get('success')}}
 @endif
-<table class="table table-hover">
+<table class="table table-bordered border-primary">
   <thead>
     <tr>
       <th scope="col">ID</th>
@@ -22,7 +22,7 @@
       <th scope="row">{{$product->id}}</th>
       <td>{{$product->description}}</td>
       <td>{{$product->quantity}}</td>
-      <td>₱{{$product->price}}</td>
+      <td>{{$product->price}}</td>
       <td><a href="edit/{{$product->id}}">Edit</a></td>
       <td><a href="delete/{{$product->id}}">Delete</a></td>
     </tr>
